@@ -4,9 +4,9 @@ import AirbnbLogo from '../images/airbnb-logo.svg'
 
 function Navbar() {
   return (
-    <div className={'navbar'}>
+    <nav className={'navbar'}>
       <img src={AirbnbLogo}/>
-    </div>
+    </nav>
   )
 }
 

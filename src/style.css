@@ -51,10 +51,12 @@ nav, section {
 .cards-list {
   display: flex;
   overflow-x: auto;
+  flex-wrap: nowrap;
 }
 
 .card {
   display: flex;
+  flex-shrink: 0;
   position: relative;
   flex-direction: column;
   width: 176px;

@@ -16,6 +16,7 @@ function App() {
       rating = {experience.stats.rating}
       reviewCount = {experience.stats.reviewCount}
       location = {experience.location}
+      openSpots = {experience.openSpots}
     />
   })
 

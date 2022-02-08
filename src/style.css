@@ -48,6 +48,11 @@ nav, section {
   margin: 0;
 }
 
+.cards-list {
+  display: flex;
+  overflow-x: auto;
+}
+
 .card {
   display: flex;
   flex-direction: column;

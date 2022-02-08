@@ -4,7 +4,7 @@ import Star from "../images/star.svg"
 
 function Card(props) {
   return (
-    <section className={'card'}>
+    <article className={'card'}>
       <img className={'card--image'} src={require('../images/cards/' + props.img)}/>
       <div className={'card--stats'}>
         <img className={'card--star'} src={Star}/>
@@ -13,7 +13,7 @@ function Card(props) {
       </div>
       <p>{props.title}</p>
       <p><strong>From ${props.price}</strong> / person</p>
-    </section>
+    </article>
   )
 }
 

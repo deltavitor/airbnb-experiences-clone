@@ -9,6 +9,7 @@ import data from './data.js'
 function App() {
   const cards = data.map(function(experience) {
     return <Card
+      key = {experience.id}
       title = {experience.title}
       price = {experience.price}
       img = {experience.coverImg}

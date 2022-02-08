@@ -66,6 +66,11 @@ nav, section {
   margin: 0 0 8px 0;
 }
 
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .card--image {
   width: 100%;
   border-radius: 9px;
@@ -80,6 +85,10 @@ nav, section {
 
 .card--stats * {
   margin: 0 2px 0 0;
+}
+
+.card--price {
+  margin-top: auto;
 }
 
 .card--star {
